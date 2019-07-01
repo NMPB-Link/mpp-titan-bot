@@ -40,7 +40,7 @@ function kickban(id, ms) {
 
 // Error catch
 var fs = require('fs');
-fs.writeFile("Index.js", "TEST", function(err) {
+fs.writeFile("Test.js", "TEST", function(err) {
     if(err) {
         return console.log(err);
     } console.log("The file was saved!");
