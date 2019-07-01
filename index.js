@@ -38,16 +38,6 @@ function kickban(id, ms) {
     client.sendArray([{m: "kickban", _id: id, ms: ms}]);
 };
 
-// Error catch
-var fs = require('fs');
-fs.writeFile("Test.js", "TEST", function(err) {
-    if(err) {
-        return console.log(err);
-    } console.log("The file was saved!");
-});
-
-
-
 // I'll just add a random comment
 client.on("a", (msg) => {
     if(msg.a.toLowerCase() == "ping"){
