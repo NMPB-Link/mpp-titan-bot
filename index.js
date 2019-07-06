@@ -1,5 +1,5 @@
 
-var Channel = "the fello rum of abrilfelix i thinc";
+var Channel = "test/midi";
 
 // Import Client.js
 const MPPClient = require("mpp-client");
@@ -16,7 +16,7 @@ client.on("hi", () => {
     console.log("Connected!");
 
     // Go into a channel
-    client.setChannel("the fello rum of abrilfelix i thinc");
+    client.setChannel("test/midi");
 
     // Showing that the bot is ready
     setTimeout(() => {
